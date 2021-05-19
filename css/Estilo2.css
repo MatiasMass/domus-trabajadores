@@ -1,0 +1,36 @@
+select, input, textarea {
+    width: 200px;
+    height: 40px;
+    margin: 30px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgb(209, 209, 209);
+    outline: none;
+}
+
+label{
+    margin: 30px;
+}
+
+form {
+    font-size: large;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.submit {
+    font-size: 15px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    background-color: rgb(93, 93, 93);
+    color: white;
+    cursor: pointer;
+    margin-left: 200px;
+    position: center;
+    margin-bottom: 5%;
+}
+
+button[type="submit"] {
+    background-color: rgb(28, 40, 110);
+}
+

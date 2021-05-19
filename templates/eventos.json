@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "Atender al cliente 32",
+        "relevancia": "Importante"
+    },
+    {
+        "nombre": "Visitar Departamento 47",
+        "relevancia": "Urgente"
+    },
+    {
+        "nombre": "Actualizar listado",
+        "relevancia": "Importante"
+    },
+    {
+        "nombre": "Atender al cliente 12",
+        "relevancia": "Importante"
+    },
+    {
+        "nombre": "Visitar Departamento 497",
+        "relevancia": "Urgente"
+    },
+    {
+        "nombre": "Llamar al notario",
+        "relevancia": "Importante"
+    },
+    {
+        "nombre": "Ver casa cliente Juan Ruiz",
+        "relevancia": "Importante"
+    }
+]

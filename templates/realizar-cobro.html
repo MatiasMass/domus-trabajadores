@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="..\uicons-regular-rounded\css\uicons-regular-rounded.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/Estilo2.css">
+    <title>Realizar Cobro</title>
+</head>
+
+<body>
+    <div class='nav-bar'>
+        <div>
+            <div class='img-login'><img class='img-login' src='..\img\login.png' height="70" width="70"></div>
+            <h3 class='text_nav-bar'>Felipe Ruiz</h3>
+            <div class='hr-div-bar'><hr class="hr-bar"></div>
+            <h3 class='text_nav-bar'>Cajero</h3>
+        </div>
+       <ul>
+           <li><a href="dashboard-cajero.html"><i class="fi-rr-home" ></i>Inicio</a></li>
+           <li><a href="realizar-cobro.html"><i class="fi-rr-money" ></i>Cobrar</a></li>
+           <li><a href="realizar-pago.html"><i class="fi-rr-money" ></i>Pagar</a></li>
+           <li><a href="transacciones-cajero.html"><i class="fi-rr-form" ></i>Transacciones</a></li>
+           <li><a href="login.html"><i class="fi-rr-user-remove" ></i>Cerrar Sesión</a></li>
+       </ul>
+
+       <div class='img-logo'>
+           <img src="..\img\logo.png" height="60">
+       </div>
+        
+    </div>
+
+    <div class="center-page">
+        <h1>Realizar Cobro</h1>
+        <form class="form">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                        <input type="text" id="firstName" />
+                        <label for="firstName">Nombre del cliente</label>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+                            <input type="email" id="emailAddress" />
+                            <label class="form-label" for="emailAddress">Email</label>
+                        </div>
+                        <div class="form-outline">
+                            <input type="text" id="Adress" />
+                            <label class="form-label" for="emailAddress">Direccion</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+
+                        <div class="form-outline">
+                            <input type="number" id="monto" />
+                            <label class="form-label" for="phoneNumber">Monto</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+
+                        <select class="tipo" id="tipo">
+                        <option value="Alquiler">Alquiler</option>
+                        <option value="Compra">Compra</option>
+                        <option value="Venta">Venta</option>
+                     </select>
+                        <label for="tipo">Tipo de operacion</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <select class="tipo" id="tipo">
+                        <option value="vivienda">Vivienda</option>
+                        <option value="departamento">Departamento</option>
+                        <option value="otro">otro</option>
+                    </select>
+                        <label for="tipo">Tipo de inmueble</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <select class="tipo" id="tipo">
+                        <option value="tarjeta">Virtual</option>
+                        <option value="departamento">Caja</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                        <label for="tipo">Metodo de pago</label>
+                    </div>
+                </div>
+                <br>
+                <div class="mt-4">
+                    <button class="submit" type="submit">Aceptar</button>
+                </div>
+
+        </form>
+    </div>
+</body>
+
+</html>

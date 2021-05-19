@@ -1,0 +1,103 @@
+form{
+    margin-top: -20px;
+}
+
+form div{
+    display: flex;
+    margin-top: 20px;
+    color: rgb(185, 185, 185);
+}
+
+form div div{
+    display: inline-block;
+    flex-direction: column;
+}
+
+form div div div{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(231, 231, 231);
+}
+
+form div div div div{
+    display: inline-block;
+    margin: 0px 20px 20px 0px;
+    border: none;
+}
+
+select ,.btn, input, textarea{
+    width: 200px;
+    height: 40px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+
+h2{
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.container{
+    flex-direction: column;
+    padding: 0;
+}
+
+.crg-img{
+    width: 600px;
+    height: 400px;
+    filter: blur(3px);
+    border: 4px solid rgb(59, 58, 58);
+}
+
+.btn-form{
+    display: flex;
+    justify-content: center;
+}
+
+button, .btn-a{
+    margin: 0px 50px;
+    padding: 20px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: rgb(93, 93, 93);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover, .btn-a:hover{
+    box-shadow: 0 22px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.8;
+    color: white;
+}
+
+button[type="submit"]{
+    background-color: #268f51;
+}
+
+textarea{
+    resize: none;
+    height: 100px;
+    width: 90%;
+}
+
+input[type='search']{
+    background: transparent;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+i{
+    cursor: pointer;
+}
+
+
+
+

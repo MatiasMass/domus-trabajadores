@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    background: #363740;
+    font-family: 'Mulish', sans-serif;
+  }
+
+ .card-body{
+   background-color: #363740;
+   border: 1px solid #363740 ;
+ }
+
+ .btn{
+   background-color: rgb(255, 255, 255);
+   color: black;
+   padding: 10px 20px; 
+   height: 50px;
+   width: 250px;
+   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+ }
+
+ .button-css{
+   text-align: center;
+ }
+
+ .form-control{
+   margin: 50px auto ;
+   width: 80%;
+   box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+ }
+
+
+
+
+

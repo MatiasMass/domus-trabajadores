@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="..\css\dashboard.css">
+    <link rel="stylesheet" href="..\css\clientes-gestion.css">
+    <link rel="stylesheet" href="..\uicons-regular-rounded\css\uicons-regular-rounded.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion-Clientes</title>
+</head>
+<body>
+    <div class='nav-bar'>
+        <div>
+            <div class='img-login'><img class='img-login' src='..\img\loginm.png' height="70" width="70"></div>
+            <h3 class='text_nav-bar'>Maria García</h3>
+            <div class='hr-div-bar'><hr class="hr-bar"></div>
+            <h3 class='text_nav-bar'>Secretaria de Comercialización</h3>
+        </div>
+       <ul>
+           <li><a href="dashboard-secretaria.html"><i class="fi-rr-home" ></i>Inicio</a></li>
+           <li><a href="clientes-gestion.html"><i class="fi-rr-users" ></i>Clientes</a></li>
+           <li><a href="eventos-gestion.html"><i class="fi-rr-calendar" ></i>Eventos</a></li>
+           <li><a href="login.html"><i class="fi-rr-user-remove" ></i>Cerrar Sesión</a></li>
+       </ul>
+       <div class='img-logo'>
+           <img src="..\img\logo.png" height="60">
+       </div>
+        
+    </div>
+       <div class='center-page'>
+        <div class='form'></div>   
+           <div class='body-head'>
+               <h1>Clientes</h1> 
+               <div>
+                    <input type="search" value="" placeholder="Ingrese cliente" class='search-client'>
+                        <a href='buscar.html'><i class=" fi-rr-search" ></i></a>
+                    </input>
+                </div>
+               <button class='listar-cli'><i class="fi-rr-form" ></i>Listar Clientes</button>
+            </div>
+            <div class='scrollingTable'>
+                <div class='head-clientes'>
+                    <button class='btn-sort'><i class='fi-rr-database'></i>Ordenar por fecha</button>
+                    <button class='btn-sort'><i class='fi-rr-database'></i>Ordenar por Nombre</button>
+                </div>
+                <table class='table-cli'>
+                    <thead>
+                        <tr>
+                            <th>Icono</th>
+                            <th>Nombre</th>
+                            <th>Fecha Nacimiento</th>
+                            <th>Telefono</th>
+                            <th>Direccion</th>
+                            <th>Correo</th>
+                            <th>Tipo Cliente</th>
+                            <th>Estado</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody class='rows-cli'></tbody>
+                </table>
+            <div class='container-agr-cli'><a href='agregar-cliente.html' class='btn-cli' id='agregar-cli'>Agregar Cliente</a></div>
+            </div>
+            <div class='confr'>
+                <div class='texto-modal'>
+                    <h3>¿Esta seguro que desea eliminar este cliente?</h3>
+                </div>
+                <div class='modal-buttons'>
+                    <button class='btn btn-agr btn-modal' onClick="elimClick()">Confirmar</button>
+                    <button class='btn btn-eli btn-modal' onClick="elimClick()">Cancelar</button
+                ></div>
+            </div>
+        </div> 
+        <script src="..\Js\clientes-table.js"></script>
+</body>
+</html>

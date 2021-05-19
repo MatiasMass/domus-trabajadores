@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 200px;
+    background: #F7F8FC;
+}
+ul {
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0;
+    width: 200px;
+    background-color: #363740;
+    border-top: 0.2px solid #2c2d2f;   
+  }
+  
+  li a {
+    display: block;
+    color: #9FA2B4;
+    padding: 12px 0px 12px 30px;
+    text-decoration: none;
+    border-bottom: 0.2px solid #2c2d2f;
+  }
+  
+  li a:hover {
+    background-color: #4a4b57;
+    color: #DDE2FF;
+    border-left: 2px solid #ffffff;
+  }
+
+  .nav-bar{
+      width: 200px;
+      height: 1197px;
+      border: 2px;
+      background-color: #363740;
+      padding-top: 25px;
+      position: fixed;
+      margin: -320px 0 0 -200px;
+  }
+  .img-logo{
+      text-align: center;
+      padding-top: 400px;
+  }
+
+  .img-login{
+    text-align: center; 
+    margin-top: 100px; 
+  }
+
+
+.text_nav-bar{
+    text-align: center;
+    color:#DDE2FF;
+    font-size: 12px;
+    margin: 8px 0px;
+}
+
+.hr-bar{
+    width: 70px;
+    margin-left: 65px;
+}
+
+i{
+  margin-right: 10px;
+}
+
+.center-page{
+  margin: 120px auto;
+  height: 750px;
+  width: 1200px;
+  text-align: center;
+  position: relative;
+}
+
+  .container-buttons{
+    justify-content: space-evenly;
+    display: flex;
+  }
+
+  .btn-tot{
+    background-color: white;
+    padding: 40px 30px;
+    border: 2px solid #3751FF;
+    font-size: 19px;
+    color: #3751FF;
+    font-style: bold;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-decoration-line: none;
+  }
+  .btn-tot:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: rgb(246, 246, 246);
+  }
+
+
+h1{
+  color:#314866;
+  font-family: 'Mulish', sans-serif;
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+.calendary{
+  position: absolute;
+  height: 350px;
+  width: auto;
+  bottom: 0;
+  right: 0;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.events{
+  position: absolute;
+  height: 350px;
+  width: auto;
+  bottom: 0;
+  left: 0;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+.events:hover,.calendary:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: rgb(246, 246, 246);
+}
+

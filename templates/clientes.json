@@ -1,0 +1,92 @@
+[
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Inquilino",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Inquilino",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Corporativo",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Propietario",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Inquilino",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Propietario",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Propietario",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Inquilino",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Corporativo",
+      "estado": "Activo"
+    },
+    {
+      "nombre": "Juan Perez",
+      "fechaNac": "14/02/1991",
+      "tel": "1111111",
+      "direccion": "9 de julio 771",
+      "correo": "cliente@gmail.com",
+      "tipoCliente": "Propietario",
+      "estado": "Activo"
+    }
+  ]

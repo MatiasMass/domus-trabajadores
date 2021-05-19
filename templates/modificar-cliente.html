@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="..\css\dashboard.css">
+    <link rel="stylesheet" href="..\uicons-regular-rounded\css\uicons-regular-rounded.css">
+    <link rel="stylesheet" href="..\css\modificar-cliente.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion-Clientes</title>
+</head>
+<body>
+    <div class='nav-bar'>
+        <div>
+            <div class='img-login'><img class='img-login' src='..\img\loginm.png' height="70" width="70"></div>
+            <h3 class='text_nav-bar'>Maria García</h3>
+            <div class='hr-div-bar'><hr class="hr-bar"></div>
+            <h3 class='text_nav-bar'>Secretaria de Comercialización</h3>
+        </div>
+       <ul>
+           <li><a href="dashboard-secretaria.html"><i class="fi-rr-home" ></i>Inicio</a></li>
+           <li><a href="clientes-gestion.html"><i class="fi-rr-users" ></i>Clientes</a></li>
+           <li><a href="eventos-gestion.html"><i class="fi-rr-calendar" ></i>Eventos</a></li>
+           <li><a href="login.html"><i class="fi-rr-user-remove" ></i>Cerrar Sesión</a></li>
+       </ul>
+
+       <div class='img-logo'>
+           <img src="..\img\logo.png" height="60">
+       </div>
+        
+    </div>
+    <div class='center-page'>
+        <h1>Modificar Cliente</h1>
+        <form method="get">
+        <div>
+            <div>
+                <div><h3>Nombre</h3><input type="text" placeholder="Juan" readonly></div>
+                <div><h3>Apellido</h3><input type="text" placeholder="Perez" readonly></div>
+                <div><h3>Nacionalidad</h3><input type="text" placeholder='Argentina' readonly></div>
+                <div><h3>DNI</h3><input type="text" placeholder="2.888.777" readonly></div>
+                <div><h3>Sexo</h3>
+                    <select  disabled='disabled'>
+                        <optgroup label='Género'>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Otro">Otro</option>
+                    </optgroup>
+                </select>
+                </div>
+                <div><h3>Fecha Nacimiento</h3><input type="date" placeholder="21/07/1979" readonly></div>
+            </div>
+            <div>
+                <div><h3>Pais</h3><input type="text" placeholder='Argentina'readonly></div>
+                <div><h3>Provincia</h3><input type="text" placeholder='Corrientes'readonly></div>
+                <div><h3>Ciudad</h3><input type="text" placeholder="Corrientes-Capital" readonly></div>
+                <div><h3>Localidad</h3><input type="text" placeholder="Corrientes" readonly></div>
+                <div><h3>Direccion Completa</h3><textarea type="text" placeholder="9 de julio 321" readonly></textarea></div>
+            </div>
+            <div>
+                <div><h3>Teléfono</h3><input type="tel" id="phone" name="phone" placeholder="123-1234567" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" readonly><br><br><small>Formato: 123-1234567</small></div>
+                <div><h3>Correo Electrónico</h3><input type="email" placeholder="juanperez@yahoo.com" readonly><br><br><small>Formato: ex@correo.com</small></div>
+                <div><h3>Tipo</h3><select  disabled='disabled'>
+                    <optgroup label='Tipo Cliente'>
+                    <option value="Inquilino">Inquilino</option>
+                    <option value="Propietario">Propietario</option>
+                    <option value="Corporativo">Corporativo</option>
+                </optgroup>
+            </select></div>
+                <div><h3>Estado</h3><select  disabled='disabled'>
+                    <optgroup label='Tipo Estado'>
+                    <option value="Activo">Activo</option>
+                    <option value="Inactivo">Inactivo</option>
+                </optgroup>
+            </select></div>
+                <div><h3>Tipo de Facturación</h3>
+                    <select disabled='disabled'>
+                        <optgroup label='Facturación'>
+                        <option value="Mes_atrasado">Mes Atrasado</option>
+                        <option value="Mes_adelantado">Mes Adelantado</option>
+                        <option value="Sin_abonar">Sin abonar</option>
+                    </optgroup>
+                </select>
+                </div>
+            </div>
+        </div>
+            <div>
+                <button class='btn' type="submit">Modificar</button>
+                <a href='clientes-gestion.html' class='btn btn-a'>Cancelar</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

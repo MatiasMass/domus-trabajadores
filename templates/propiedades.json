@@ -1,0 +1,23 @@
+[
+    {
+        "tipoInmueble": "Vivienda",
+        "direccion": "Av 9 de Julio 321",
+        "provincia": "Corrientes",
+        "ciudad": "Corrientes-Capital",
+        "descripción":"Departamento rojo con dos pisos y un comedor"
+    },
+    {
+        "tipoInmueble": "Edificio Corporativo",
+        "direccion": "Av Comodoro 764",
+        "provincia": "Chaco",
+        "ciudad": "Resistencia",
+        "descripción":"Edificio 10 pisos"
+    },
+    {
+        "tipoInmueble": "Vivienda",
+        "direccion": "Calle Buenos Aires 1298",
+        "provincia": "Corrientes",
+        "ciudad": "Corrientes-Capital",
+        "descripción":"Casa de 4 dormitorios y un patio grande"
+    }
+]

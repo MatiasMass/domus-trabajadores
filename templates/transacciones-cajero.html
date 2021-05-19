@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cajero</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="..\uicons-regular-rounded\css\uicons-regular-rounded.css">
+        <link rel="stylesheet" href="../css/dashboard.css">    
+    </head>
+
+    <body>
+        <div class='nav-bar'>
+            <div class="mt-5">
+                <div class='img-login'><img class='img-login' src='..\img\login.png' height="70" width="70"></div>
+                <h3 class='text_nav-bar'>Felipe Ruiz</h3>
+                <div class='hr-div-bar'><hr class="hr-bar" style="background-color: white;"></div>
+   <div class='hr-div-bar'><hr class="hr-bar"></div>
+>                <h3 class='text_nav-bar'>Cajero</h3>
+            </div>
+           <ul>
+               <li><a href="dashboard-cajero.html"><i class="fi-rr-home" ></i>Inicio</a></li>
+               <li><a href="realizar-cobro.html"><i class="fi-rr-money" ></i>Cobrar</a></li>
+               <li><a href="realizar-pago.html"><i class="fi-rr-money" ></i>Pagar</a></li>
+               <li><a href="transacciones-cajero.html"><i class="fi-rr-form" ></i>Transacciones</a></li>
+               <li><a href="login.html"><i class="fi-rr-user-remove" ></i>Cerrar Sesión</a></li>
+           </ul>
+    
+           <div class='img-logo'>
+               <img src="..\img\logo.png" height="60">
+           </div>
+            
+        </div>
+            
+
+      <div class='center-page'>
+        <!-- Main -->
+        <main class="container">
+            <!-- Header -->
+            <header class="row mt-5">
+                <div class="col-12">
+                    <h1 class="text-center">Transacciones</h1>
+                </div>
+            </header>
+            <!-- Header -->
+
+            <!-- Section -->
+            <section class="mt-5">
+                
+                <div class="row">
+                    <div class="col-3">
+                        <h3>Filtar por fecha</h3>
+                    </div>
+                </div>
+                <!-- div row -->
+                <div class="row">
+                    <!-- div col -->
+                    <div class="col-3 ml-3">
+                        <div class="form-group row">
+                            <label for="example-datetime-local-input" class="">Desde</label>
+                            <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+                        </div>
+                    </div>
+                    <!-- div col -->
+                    <!-- div col -->
+                    <div class="col-3 ml-3">
+                        <div class="form-group row">
+                            <label for="example-datetime-local-input" class="">Hasta</label>
+                            <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+                        </div>
+                    </div>
+                    <!-- div col -->
+                    <div class="col-md-4 col-lg-2 align-self-center">
+                        <button class="btn btn-primary btn-block">Filtrar</button>
+                    </div>
+                </div>
+                <!-- div row -->
+
+                <!-- div row -->
+                <div class="row">
+                    <!-- div col -->
+                    <div class="col">
+                        <table class="table table-hover table-bordered text-nowrap">
+                            <thead class="table-dark">
+                            <tr>
+                                <th scope="col">Cliente</th>
+                                <th scope="col">Nro. Transaccion</th>
+                                <th scope="col">Concepto</th>
+                                <th scope="col">Fecha</th>
+                                <th scope="col">Importe</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                                <!-- tr  -->
+                                <tr>
+                                    <th scope="row">Paulo Esteban</th>
+                                    <td class="text-info">5278318</td>
+                                    <td>Cobro de Alquiler</td>
+                                    <td>12:00 - 05/05/2021</td>
+                                    <td>
+                                    <span class="text-success">
+                                        <i class="fas fa-caret-up me-1"></i><span>$35000</span>
+                                    </span>
+                                    </td>
+                                </tr>
+                                <!-- tr -->
+
+                                <!-- tr  -->
+                                <tr>
+                                    <th scope="row">Paulo Esteban</th>
+                                    <td class="text-info">5278318</td>
+                                    <td>Cobro de Alquiler</td>
+                                    <td>12:00 - 05/05/2021</td>
+                                    <td>
+                                    <span class="text-success">
+                                        <i class="fas fa-caret-up me-1"></i><span>$35000</span>
+                                    </span>
+                                    </td>
+                                </tr>
+                                <!-- tr -->
+
+                                <!-- tr  -->
+                                <tr>
+                                    <th scope="row">Paulo Esteban</th>
+                                    <td class="text-info">5278318</td>
+                                    <td>Pago de Alquiler</td>
+                                    <td>12:00 - 05/05/2021</td>
+                                    <td>
+                                    <span class="text-danger">
+                                        <i class="fas fa-caret-up me-1"></i><span>$35000</span>
+                                    </span>
+                                    </td>
+                                </tr>
+                                <!-- tr -->
+
+                                <!-- tr  -->
+                                <tr>
+                                    <th scope="row">Paulo Esteban</th>
+                                    <td class="text-info">5278318</td>
+                                    <td>Pago de Alquiler</td>
+                                    <td>12:00 - 05/05/2021</td>
+                                    <td>
+                                    <span class="text-danger">
+                                        <i class="fas fa-caret-up me-1"></i><span>$35000</span>
+                                    </span>
+                                    </td>
+                                </tr>
+                                <!-- tr -->
+                                <!-- tr  -->
+                                <tr>
+                                    <th scope="row">Paulo Esteban</th>
+                                    <td class="text-info">5278318</td>
+                                    <td>Cobro de Alquiler</td>
+                                    <td>12:00 - 05/05/2021</td>
+                                    <td>
+                                    <span class="text-success">
+                                        <i class="fas fa-caret-up me-1"></i><span>$35000</span>
+                                    </span>
+                                    </td>
+                                </tr>
+                                <!-- tr -->
+
+                                <!-- tr  -->
+                                <tr>
+                                    <th scope="row">Paulo Esteban</th>
+                                    <td class="text-info">5278318</td>
+                                    <td>Cobro de Alquiler</td>
+                                    <td>12:00 - 05/05/2021</td>
+                                    <td>
+                                    <span class="text-success">
+                                        <i class="fas fa-caret-up me-1"></i><span>$35000</span>
+                                    </span>
+                                    </td>
+                                </tr>
+                                <!-- tr -->
+
+                                <!-- tr  -->
+                                <tr>
+                                    <th scope="row">Paulo Esteban</th>
+                                    <td class="text-info">5278318</td>
+                                    <td>Pago de Alquiler</td>
+                                    <td>12:00 - 05/05/2021</td>
+                                    <td>
+                                    <span class="text-danger">
+                                        <i class="fas fa-caret-up me-1"></i><span>$35000</span>
+                                    </span>
+                                    </td>
+                                </tr>
+                                <!-- tr -->
+
+                                <!-- tr  -->
+                                <tr>
+                                    <th scope="row">Paulo Esteban</th>
+                                    <td class="text-info">5278318</td>
+                                    <td>Pago de Alquiler</td>
+                                    <td>12:00 - 05/05/2021</td>
+                                    <td>
+                                    <span class="text-danger">
+                                        <i class="fas fa-caret-up me-1"></i><span>$35000</span>
+                                    </span>
+                                    </td>
+                                </tr>
+                                <!-- tr -->                            
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- div col -->
+                </div>
+                <!-- div row -->
+
+            </section>
+            <!-- Section -->
+        </main>
+        <!-- Main -->
+    </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+    </body>
+</html>

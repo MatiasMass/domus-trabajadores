@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\uicons-regular-rounded\css\uicons-regular-rounded.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="../css/Estilo.css">
+    <title>Cajero</title>
+</head>
+
+<body>
+    <div class='nav-bar'>
+        <div>
+            <div class='img-login'><img class='img-login' src='..\img\login.png' height="70" width="70"></div>
+            <h3 class='text_nav-bar'>Felipe Ruiz</h3>
+            <div class='hr-div-bar'><hr class="hr-bar"></div>
+            <h3 class='text_nav-bar'>Cajero</h3>
+        </div>
+       <ul>
+           <li><a href="dashboard-cajero.html"><i class="fi-rr-home" ></i>Inicio</a></li>
+           <li><a href="realizar-cobro.html"><i class="fi-rr-money" ></i>Cobrar</a></li>
+           <li><a href="realizar-pago.html"><i class="fi-rr-money" ></i>Pagar</a></li>
+           <li><a href="transacciones-cajero.html"><i class="fi-rr-form" ></i>Transacciones</a></li>
+           <li><a href="login.html"><i class="fi-rr-user-remove" ></i>Cerrar Sesión</a></li>
+       </ul>
+
+       <div class='img-logo'>
+           <img src="..\img\logo.png" height="60">
+       </div>
+        
+    </div>
+<div class='center-page'>
+    <h1>Bienvenido Cajero</h1>
+    <div>
+        <a href='realizar-cobro.html' class="btn btn-green">Cobrar</a>
+        <a href='realizar-pago.html' class="btn btn-red">Pagar</a>
+        <a href="transacciones-cajero.html" class="btn">Transacciones</a>
+    </div>
+    <div>
+        <h2>Reporte diario</h2>
+            <select>
+                <option value="ingresos">Ingresos</option>
+                <option value="egresos">Egresos</option>
+            </select>
+        </h1>
+    </div>
+    <div>
+        <img class='reporte' src="../img/reporte-diario.jpg" alt="">
+    </div>
+    <div>
+        <h2>Buscar en el reporte</h2>
+        <input type="text" class="form-control" placeholder="Ingrese Nombre">
+        <input type="date" class="inp" style=" margin-left:0px;">
+        <a href='buscar.html'><i class=" fi-rr-search" ></i></a>
+    </div>
+    <div>
+        <button class='btn-pdf'>Descargar </button>
+        <button class='btn-pdf'>Enviar</button>
+    </div>
+    
+</div>
+
+
+</html>

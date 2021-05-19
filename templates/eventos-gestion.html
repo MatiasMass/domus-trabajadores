@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="..\css\eventos.css">
+    <link rel="stylesheet" href="..\uicons-regular-rounded\css\uicons-regular-rounded.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion-Clientes</title>
+</head>
+<body>
+    <div class='nav-bar'>
+        <div>
+            <div class='img-login'><img class='img-login' src='..\img\loginm.png' height="70" width="70"></div>
+            <h3 class='text_nav-bar'>Maria García</h3>
+            <div class='hr-div-bar'><hr class="hr-bar"></div>
+            <h3 class='text_nav-bar'>Secretaria de Comercialización</h3>
+        </div>
+       <ul>
+        <li><a href="dashboard-secretaria.html"><i class="fi-rr-home" ></i>Inicio</a></li>
+        <li><a href="clientes-gestion.html"><i class="fi-rr-users" ></i>Clientes</a></li>
+        <li><a href="eventos-gestion.html"><i class="fi-rr-calendar" ></i>Eventos</a></li>
+        <li><a href="login.html"><i class="fi-rr-user-remove" ></i>Cerrar Sesión</a></li>
+       </ul>
+
+       <div class='img-logo'>
+           <img src="..\img\logo.png" height="60">
+       </div>
+        
+    </div>
+    <div class='center-page'>
+        <div class='body-head'>
+            <h1>Eventos</h1> 
+            <div>
+             <input type="search" value="" placeholder="Buscar envento" class='search-event'>
+             <i class=" fi-rr-search" ></i>
+              </input>
+            </div>
+        </div>
+        <div class='event-container'>
+            <div class='head-event'>
+                <button class='btn-sort'><i class='fi-rr-database'></i>Ordenar por fecha</button>
+                <button class='btn-sort'><i class='fi-rr-database'></i>Ordenar por Nombre</button>
+            </div>
+            <table>
+                <tbody class='row-event'>
+                    <tr>
+                        <td>Crear Nuevo Evento</td>
+                        <td><a href="crear-evento.html"><i class='fi-rr-plus'></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="..\Js\eventos.js"></script>
+</body>
+</html>

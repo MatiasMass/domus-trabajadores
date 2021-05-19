@@ -1,0 +1,115 @@
+form{
+    margin-top: -20px;
+}
+
+.dropdown{
+    margin:0;
+    padding: 20px;
+}
+
+form > div{
+    display: flex;
+    margin-top: 20px;
+    color: rgb(185, 185, 185);
+    justify-content: space-around;
+}
+
+form > div > div{
+    display: inline-block;
+    flex-direction: column;
+    padding: 20px 80px;
+}
+
+form div div div{
+    border-bottom: 2px solid rgb(231, 231, 231);
+}
+
+form div div div div{
+    margin: 20px 20px 20px 0px;
+    border: none;
+}
+
+h2{
+    padding: 10px 0;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+button, .dropdown-toggle, .btn-a{
+    margin: 0px 50px;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: rgb(93, 93, 93);
+    cursor: pointer;
+}
+
+.dropdown-toggle{
+    margin: 0;
+    font-size: 18px;
+    border: 2px solid rgb(66, 66, 66);
+    background-color: white;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+input, textarea{
+    width: 400px;
+    height: 50px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+    margin: 20px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 24px;
+}
+
+.btn-a{
+    color: white;
+}
+
+.btn-a:hover{
+    text-decoration: none;
+    color: white;
+    box-shadow: 0 22px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.8;
+}
+
+textarea{
+    height: 300px;
+    resize: none;
+}
+
+button:hover, .dropdown-toggle:hover{
+    box-shadow: 0 22px 26px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    opacity: 0.8;
+}
+
+button[type="submit"]{
+    background-color: rgb(20, 151, 42);
+    color: white;
+}
+
+optgroup{
+    font-size: 22px;
+}
+
+.container-right{
+    border-left: 2px solid rgb(231, 231, 231);  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.calendary{
+    height: 300px;
+    width: 450px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn-form{
+    display: flex;
+    justify-content: center;
+}
+
+
+

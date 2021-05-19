@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="..\css\dashboard.css">
+    <link rel="stylesheet" href="..\css\modificar-propiedades.css">
+    <link rel="stylesheet" href="..\uicons-regular-rounded\css\uicons-regular-rounded.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion-Clientes</title>
+</head>
+<body>
+    <div class='nav-bar'>
+        <div>
+            <div class='img-login'><img class='img-login' src='..\img\login.png' height="70" width="70"></div>
+            <h3 class='text_nav-bar'>James Fernand</h3>
+            <div class='hr-div-bar'><hr class="hr-bar"></div>
+            <h3 class='text_nav-bar'>Agente Inmobiliario</h3>
+        </div>
+       <ul>
+           <li><a href="dashboard.html"><i class="fi-rr-home" ></i>Inicio</a></li>
+           <li><a href="gestion-Propiedades.html"><i class="fi-rr-building" ></i>Propiedades</a></li>
+           <li><a href="visualizar-clientes.html"><i class="fi-rr-users" ></i>Clientes</a></li>
+           <li><a href="eventos.html"><i class="fi-rr-calendar" ></i>Eventos</a></li>
+           <li><a href="login.html"><i class="fi-rr-user-remove" ></i>Cerrar Sesión</a></li>
+       </ul>
+
+       <div class='img-logo'>
+           <img src="..\img\logo.png" height="60">
+       </div>
+        
+    </div>
+    <div class='center-page'>
+        <h1>Modificar</h1>
+        <form class='form-prop'>
+            <div><div class='text-area'>
+                <div class='container'><h2>Nombre del cliente</h2><input type="text" placeholder="Juan Perez" readonly></input></div>
+                <div>
+                    <div><h2>Direccion del inmueble</h2><input type="text" placeholder="Av Comodoro 221" readonly></input></div>
+                    <div><h2>Tipo</h2><input type="text" placeholder="Venta" readonly></input></div>
+                    <div><h2>Precio</h2><input type="text" placeholder="40000 U$D" readonly></input></div>
+                </div>
+                <div>
+                    <div><h2>Dimensiones</h2><input type="text" placeholder="45x20" readonly></input></div>
+                    <div><h2>Provincia</h2><input type="text" placeholder="Corrientes" readonly></input></div>
+                    <div><h2>Departamento</h2><input type="text" placeholder="No" readonly></input></div>
+                </div>
+                <div class='container'><h2>Descripción</h2><textarea placeholder="Una casa con 4 habitaciones y un patio grande" readonly></textarea></div>             
+            </div>
+            <div>
+                <input class='crg-img' type="image" src='..\img\propiedad.jpg'></input>
+            </div>
+            </div>
+            <div class='btn-form'>
+                <button type="submit">Modificar</button>
+                <a class='btn' href='gestion-Propiedades.html'>Cancelar</a>
+            </div>
+        </form>            
+    </div>
+</body>
+</html>
